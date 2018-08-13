@@ -19,4 +19,8 @@ public class BookBorrower {
 
         return "I don't have the book";
     }
+
+    public void returnBook() {
+        borrowedBook.returnBook(borrowedBook);
+    }
 }
