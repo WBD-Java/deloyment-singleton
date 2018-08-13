@@ -22,4 +22,8 @@ public class BookSingleton {
         }
         return null;
     }
+
+    public void returnBook(BookSingleton bookReturned) {
+        isLoanedOut = false;
+    }
 }
