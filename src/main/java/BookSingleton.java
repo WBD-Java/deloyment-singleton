@@ -4,4 +4,10 @@ public class BookSingleton {
     private String author;
     private String title;
 
+    public BookSingleton() {
+        author = "Gamma, Helm, Johnson, and Vlissides";
+        title = "Design Patterns";
+        book = null;
+        isLoanedOut = false;
+    }
 }
