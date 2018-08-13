@@ -26,4 +26,16 @@ public class BookSingleton {
     public void returnBook(BookSingleton bookReturned) {
         isLoanedOut = false;
     }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthorAndTitle() {
+        return getTitle() + " by " + getAuthor();
+    }
 }
